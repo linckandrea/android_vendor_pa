@@ -81,3 +81,9 @@ PRODUCT_PACKAGES += \
 # Shell
 PRODUCT_PACKAGES += \
     nano
+
+
+# Power HAL
+ifneq ($(TARGET_PROVIDES_POWERHAL),true)
+PRODUCT_PACKAGES += android.hardware.power@1.3-service.yoshino
+endif
