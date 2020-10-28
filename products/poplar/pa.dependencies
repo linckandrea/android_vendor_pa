@@ -1,0 +1,55 @@
+[
+  {
+    "remote":       "github",
+    "repository":   "linckandrea/android_device_sony_poplar",
+    "target_path":  "device/sony/poplar",
+    "revision":     "PA-EAS"
+  },
+  {
+    "remote":       "github",
+    "repository":   "linckandrea/android_device_sony_yoshino-common",
+    "target_path":  "device/sony/yoshino-common",
+    "revision":     "PA-EAS"
+  },
+  {
+    "remote":       "github",
+    "repository":   "linckandrea/android_kernel_sony_msm8998",
+    "target_path":  "kernel/sony/msm8998",
+    "revision":     "EAS-pixel8"
+  },
+  {
+    "remote":       "github",
+    "repository":   "whatawurst/android_vendor_sony_poplar",
+    "target_path":  "vendor/sony/poplar",
+    "revision":     "lineage-17.1"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "target_path":  "hardware/qcom/audio",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "github",
+    "repository":   "linckandrea/android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "quartz"
+  },
+  {
+    "remote":       "blobs",
+    "repository":   "proprietary_vendor_qcom_common",
+    "target_path":  "vendor/qcom/common",
+    "revision":     "quartz"
+  }
